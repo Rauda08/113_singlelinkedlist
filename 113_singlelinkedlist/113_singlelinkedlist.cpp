@@ -134,7 +134,7 @@ int main() {
     do
     {
         try
-        { 
+        {
 
             cout << " 1. Tambah Data" << endl;
             cout << " 2. Hapus Data" << endl;
@@ -182,8 +182,11 @@ int main() {
             default:
                 cout << "Pilihan tidak ada" << endl;
                 break;
-
-                int nim;
-
-
+            }
+        }
+        catch (exception e)
+        {
+            cout << "Terjadi kesalahan" << endl;
+        }
+    } while (pilihan != 5);
 }
