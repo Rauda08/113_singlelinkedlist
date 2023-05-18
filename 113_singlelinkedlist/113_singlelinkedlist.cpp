@@ -122,5 +122,15 @@ void searchData() {
             if (currentNode->noMhs == nim) {
                 cout << "NIM: " << currentNode->noMhs << ", Nama; " << currentNode->name << endl;
                 return;
-            } 
+            }
             currentNode = currentNode->next;
+        }
+        cout << "Data tidak ditemukan" << endl;
+    }
+}
+
+int main() {
+    int pilihan;
+    do
+
+}
